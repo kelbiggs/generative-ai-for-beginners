@@ -1,7 +1,7 @@
 name: Check Broken URLs
 
 on:
-  # Mondays and Wednesdays at 13:00 UTC
+  # Mondays and Wednesdays at 13:00 UTC (9 AM EDT / 8 AM EST; GitHub cron has no DST)
   schedule:
     - cron: '0 13 * * 1,3'
   workflow_dispatch:
